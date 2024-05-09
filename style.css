@@ -1,0 +1,367 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: blue;
+    height: 7vw;
+    width: 100vw;
+}
+.content1{
+    background-image: url(./images/lo-homepage-background-010721.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 50vw;
+    width: 100%;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+.sec-banner{
+    margin-top: 8vw;
+    height: 35vw;
+    background-image: url(./images/lo-homepage-peoplecert-banner-032122.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text{
+    color: white;
+    padding-left: 20px;
+}
+.text h1{
+    font-size: 3vw;
+    padding-left: 8vw;
+}
+.text p{
+    font-size: 1.5vw;
+    padding-left: 8vw;
+}
+.btn1 {
+    height: 5vw;
+    width: 11vw;
+    margin: 2vw 0 0 8vw;
+    padding: 1vw 0vw;
+    background-color: rgb(251, 2, 2);
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+.btn2 {
+    height: 6vw;
+    width: 15vw;
+    padding: 2vw 3vw;
+    background-color: rgb(2, 201, 251);
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.btn3 {
+    height: 6vw;
+    width: 12vw;
+    padding: 1vw 1vw;
+    background-color: rgb(2, 201, 251);
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  
+.black-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 18vw;
+    width: 100vw;
+    gap: 2px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 10px;
+}
+.div1 img{
+    width: 40%;
+}
+.div1 h4{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+.div2 img{
+    width: 40%;
+}
+.div2 h4{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.blue-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    height: 18vw;
+    gap: 2px;
+    width: 100%;
+    background-color: black;
+}
+.blue-grid1{
+    background-color: rgb(79, 79, 173);
+    align-content: center;
+}
+.blue-grid1 h1{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.blue-grid2{
+    background-color: rgb(79, 79, 173);
+    align-content: center;
+}
+.blue-grid2 h1{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+    padding-left: 25px;
+}
+.blue-grid3{
+    background-color: rgb(79, 79, 173);
+    align-content: center;
+}
+.blue-grid3 h1{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.blue-grid4{
+    background-color: rgb(79, 79, 173);
+    align-content: center;
+}
+.blue-grid4 h1{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.green-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    width: 100%;
+    grid-template-rows: 42vw;
+    background-color: black;
+}
+.green-grid-item{
+    background-color: rgb(15, 245, 150);
+    color: white;
+}
+.green-grid-item img{
+    width: 100%;
+}
+.green-grid-item h3{
+    padding-top: 2vw;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+.green-grid-item h4{
+    font-size: 4vw;
+    font-weight: lighter;
+}
+.green-grid-item h1{
+    font-size: 6vw;
+    font-weight: bolder;
+}
+.green-grid-item h2{
+    font-size: 2.5vw;
+    font-weight: lighter;
+    padding: 40px 0 0 50px;
+}
+.align{
+    align-content: center;
+    padding-left: 5vw;
+}
+.tall{
+    grid-row: span 150;
+}
+.short{
+    grid-row: span 150;
+}
+.purple-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    grid-template-rows: 25vw;
+    background-color: black;
+    color: white;
+}
+.purple-grid-item{
+    background-color: purple;
+}
+.purple-grid-item img{
+    width: 30%;
+    height: 15vw;
+    padding-top: 4vw;
+}
+.purple-grid-item h4{
+    padding-left: 10vw;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+.purple-grid-item h1{
+    padding-left: 10vw;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.purple-grid-item h2{
+    margin: 6vw 0 0 4vw;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.flex{
+    display: flex;
+}
+.taller{
+    grid-row: span 100;
+}
+.shorter{
+    grid-row: span 100;
+}
+.bluee-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    gap: 2px;
+    width: 100%;
+    grid-template-rows: 22vw;
+    background-color: black;
+    color: white;
+}
+.bluee-grid-item{
+    background-color: rgb(51, 149, 236);
+}
+.bluee-grid-item img{
+    width: 100%;
+}
+.bluee-grid-item h4{
+    font-size: 2vw;
+    font-weight: lighter;
+}
+.bluee-grid-item h1{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.yellow-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr) 1fr;
+    gap: 2px;
+    width: 100%;
+    grid-template-rows: 20vw;
+    background-color: black;
+    color: white;
+}
+.yellow-grid-item{
+    background-color: rgb(209, 209, 8);
+}
+.yellow-grid-item h1{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.yellow-grid-item h4{
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+.yell{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 0 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: gray;
+}
+.footer-item1 ul{
+    display: flex;
+    list-style: none;
+}
+.footer-item2 ul{
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px)
+{
+    .navigation{
+        width: 100%;
+        }
+    .content1{
+        width: 100%;
+    }
+    .black-div{
+        width: 100%;
+    }
+    .blue-grid{
+        width: 100%;
+    }
+    .green-grid{
+        width: 100%;
+    }
+    .green-grid-item{
+        width: 100%;
+    }
+    .purple-grid{
+        width: 100%;
+    }
+    .bluee-grid{
+        width: 100%;
+    }
+    .yellow-grid{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    
+    .navigation{
+        width: 100%;
+        }
+    .content1{
+        width: 100%;
+    }
+    .black-div{
+        width: 100%;
+    }
+    .blue-grid{
+        width: 100%;
+    }
+    .green-grid{
+        width: 100%;
+    }
+    .green-grid-item{
+        width: 100%;
+    }
+    .purple-grid{
+        width: 100%;
+    }
+    .bluee-grid{
+        width: 100%;
+    }
+    .yellow-grid{
+        width: 100%;
+    }
+}
